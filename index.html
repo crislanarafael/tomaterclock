@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA'Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <title>Pomodoro WebApp</title>
+  </head>
+  <body>
+    <div class="menu-wrap">
+      <input type = "checkbox" class="toggler">
+      <div class = "hamburger"><div></div></div>
+      <div class = "menu">
+        <div>
+          <div>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Settings</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header class = "showcase">
+      <div class = "container showcase-inner">
+        <div id = "timer-buttons">
+          <input type="button" id = "pomodoro"class="transparent_btn" value = "Pomodoro" onclick = "pomodoro()">
+          <input type="button" id = "short" class="transparent_btn" value = "Short Break" onclick = "shortBreak()">
+          <input type="button" id = "long" class="transparent_btn" value = "Long Break" onclick = "longBreak()">
+        </div>
+        <h1 id = "output">0:00</h1>
+        <div id = "timer-buttons">
+          <input type="button" class="transparent_btn1" value = "Start" onclick = "startTimer()">
+          <input type="button" class="transparent_btn1" value = "Stop" onclick = "stop()">
+          <input type="button" class="transparent_btn1" value = "Reset" onclick = "reset()">
+        </div>
+        <div id = "instructions">
+          <ul>
+            <li>Select an option from the top menu and start</li>
+            <li>Reset current selection before selecting another option</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <footer>
+      <div id = "icons">
+        <a href = "https://www.linkedin.com/in/crislana-rafael-30658a27/" target="_blank"><img class = "icons" src = "linkedin_small.png" alt = "Crislana's linkedin"></a>
+        <a href = "https://github.com/crislanarafael"><img class = "icons" src = "github.png" alt = "Crislana's github"></a>
+      </div>
+      <div id = "credit">
+        <p> Pomodoro WebApp By Crislana Rafael 2020 </p>
+      </div>
+    </footer>
+    <script src = "pomodoro.js"></script>
+  </body>
+</html>
