@@ -4,13 +4,15 @@ TomaterClock is a simple online pomodoro timer I created with Javascript. I want
 [Learn more about the Pomodoro Technique](https://todoist.com/productivity-methods/pomodoro-technique)
 
 # How to Use TomaterClock
+<img src="Interface.PNG" width=200 align=left>
+<br>
 
 As the moment I designed TomaterClock's preset times as follows:
 
 - The Pomodoro button is used to time your work/productivity session.
 - The Short Break button is used to time a short 5 minute break. You can use this to decompress your brain by doing things like watching [Sea Otter videos](https://www.youtube.com/watch?v=50qgLozAtSQ) 
 - The Long Break button is used to time a 15 minute break after more than one Pomodoro session
-- Available to use online/mobile
+- Available to use online/mobile <br><br><br><br><br>
 
 Here's how to start:
 1. Select the Pomodoro Button
