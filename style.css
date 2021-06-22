@@ -31,7 +31,7 @@ body{
 
 .showcase::before{
   content: '';
-  background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("Pomodoro.jpg") no-repeat center center/cover;
+  background: linear-gradient(rgba(0,2,0,0.2), rgba(0,0,0,0.4)), url("PomodoroImage.jpg") no-repeat center center/cover;
   position: absolute;
   top:0;
   left:0;
