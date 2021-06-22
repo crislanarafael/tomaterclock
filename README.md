@@ -1,4 +1,4 @@
-# Welcome to TomaterClock
+# Welcome to TomaterClock :tomato::tomato:
 TomaterClock is a simple online pomodoro timer I created with Javascript. I wanted to explore some event-driven programming I learned in my web programming class and created this as a result. And also, I've heard great things about the Pomodoro Method for increasing my productivity!
 
 [Learn more about the Pomodoro Technique](https://todoist.com/productivity-methods/pomodoro-technique)
