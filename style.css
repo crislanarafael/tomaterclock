@@ -108,7 +108,6 @@ body{
     -webkit-transition: background-color 300ms ease;
     -moz-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
-    cursor: pointer;
     }
 
     .transparent_btn1:hover {
